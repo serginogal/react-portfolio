@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'NothingYouCouldDo-Regular';
+  src: local('NothingYouCouldDo-Regular'), url(../../Assets//Fonts/NothingYouCouldDo-Regular.ttf) format('truetype');
+}
+
+.logo {
+  font-family: NothingYouCouldDo-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
