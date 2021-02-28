@@ -11,7 +11,6 @@ const NavBar = () => {
         <a href="#">Technologies</a>
         <a href="#">Career</a>
         <a href="#">Education</a>
-        <a href="#">Language</a>
       </div>
     </div>
   )
