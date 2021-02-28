@@ -8,7 +8,7 @@ const NavBar = () => {
       <Logo />
       <div className="links">
         <a className="main-link" href="#">Home</a>
-        <a href="#">Skills</a>
+        <a href="#">Technologies</a>
         <a href="#">Career</a>
         <a href="#">Education</a>
         <a href="#">Language</a>

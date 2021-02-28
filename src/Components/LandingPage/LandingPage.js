@@ -1,7 +1,7 @@
 import './LandingPage.css'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-const LandingPage = ({}) => {
+const LandingPage = () => {
 
   return (
     <div className="landing-wrapper">
