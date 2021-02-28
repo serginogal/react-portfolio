@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo'
 
 const NavBar = () => {
   return (
-    <div className="nav">
+    <div className="nav floating">
       <Logo />
       <div className="links">
         <a className="main-link" href="#">Home</a>
