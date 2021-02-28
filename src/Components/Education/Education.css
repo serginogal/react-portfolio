@@ -1,73 +1,63 @@
-.career-wrapper {
+.education-wrapper {
   min-height: 60vh;
-  background-color: aliceblue;
+  background-color: #fff;
   padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.career-title {
+.education-title {
   position: relative;
   padding: 0 50px;
   width: 50vw;
   /* height: inherit; */
 }
 
-.career-title h1 {
+.education-title h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 0 !important;
 }
 
-.career-title h1 span {
+.education-title h1 span {
   font-size: 35px;
   margin: 0 !important;
 }
 
-.career-title img {
+.education-title img {
   width: 40vw;
 }
 
-.career-list {
+.education-list {
   width: 50%;
 }
 
-.career-list ol {
+.education-list ol {
   list-style: none;
   text-align: start;
 }
 
-.career-list ol .company-name {
+.education-list ol .school-name {
   font-weight: bold;
   font-size: 1.2rem;
   opacity: .6;
 }
 
-.career-list ol .company-title {
-  font-weight: normal;
-  font-size: 1rem;
-  opacity: .6;
-}
-
-.career-wrapper ol li {
+.education-wrapper ol li {
   position: relative;
   margin-bottom: 20px;
   border-bottom: 1px solid #ebebeb;
 }
 
-.career-list ol li span {
+.education-list ol li span {
   /* position: absolute; */
   font-size: .8rem;
 }
 
-.career-wrapper ol li p {
+.education-wrapper ol li p {
   font-size: .9rem;
   padding-left: 2rem;
   line-height: 1.5rem;
   opacity: .6;
-}
-
-.career-wrapper ol li p .highlight {
-  font-size: .9rem;
 }
