@@ -1,3 +1,9 @@
+span.highlight {
+  color: tomato;
+  font-size: 2.5rem;
+  font-weight: bold !important;
+}
+
 .app-wrapper {
   text-align: center;
 }

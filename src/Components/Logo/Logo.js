@@ -1,5 +1,5 @@
 import './Logo.css'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 const Logo = ({color = '#424953', size = '1.5rem', text = 'Sergi Nogal'}) => {
 

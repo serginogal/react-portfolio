@@ -1,0 +1,45 @@
+.landing-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+
+.landing-text h1 {
+  text-align: start;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+.landing-text h3 {
+  text-align: start;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: .4;
+  line-height: 30px;
+  margin: .5rem !important;
+}
+
+.landing-text .btn {
+  width: 150px;
+  margin-top: 30px;
+  font-size: 1vw;
+  padding: 14px 20px;
+  background-color: tomato;
+  color: #fff;
+  border-radius: 45px;
+  text-align: center;
+}
+
+.landing-text a {
+  font-size: 15px;
+  color: #fff;
+}
+
+.landing-image img {
+  width: 45vw;
+}
