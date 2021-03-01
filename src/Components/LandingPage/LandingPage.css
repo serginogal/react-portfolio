@@ -42,3 +42,37 @@
 .landing-image img {
   width: 45vw;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .landing-wrapper {
+    flex-direction: column-reverse;
+    padding: 15vw;
+    justify-content: center;
+  }
+
+  .landing-text h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .landing-text h1 .highlight {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .landing-text h3 {
+    font-size: 1rem;
+  }
+
+  .landing-image img {
+    width: 20em;
+  }
+
+  .landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+}
