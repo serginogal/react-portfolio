@@ -12,7 +12,7 @@ const LandingPage = () => {
         I'm a <span className="highlight">Frontend Developer 👨‍💻</span><br/>
         from <span className="highlight">Barcelona, SP 🇪🇸</span><br/>
         living in <span className="highlight">Tokyo, JP 🇯🇵</span></h1>
-        <h3>I'm a self driven and detailed oriented professional with passion and motivation to always keep learning in this ever evolving sector.</h3>
+        <h3>I'm a self driven and detail-oriented professional with passion and motivation to always keep learning in this ever-evolving sector.</h3>
         <div className="btn">
           <a href="#">Check my Resume</a>
         </div>

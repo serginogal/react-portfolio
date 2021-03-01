@@ -17,7 +17,7 @@ const Career = ({  }) => {
               <p>Develop and design new functionalities using <span className="highlight">NodeJS</span>, <span className="highlight">PUG</span>, <span className="highlight">CSS</span> and <span className="highlight">JavaScript</span> to an existing <span className="highlight">e-commerce</span> platform</p>
               <p>Develop from scratch an <span className="highlight">Online Music Application</span> using <span className="highlight">React Native</span> published in both, the <span className="highlight">App Store</span> and <span className="highlight">Google Play Store</span></p>
               <p>Maintain, fix and update various <span className="highlight">Online Messaging </span> and <span className="highlight">VOIP iOS Applications</span> using <span className="highlight">Objective C</span> and <span className="highlight">Swift</span></p>
-              <p>Developing and adding new screens and functionalities into an existing <span className="highlight">Mailing platform </span> using <span className="highlight">VueJS</span> and <span className="highlight">AWS</span> to develop the <span className="highlight">API</span></p>
+              <p>Develop and add new screens and functionalities into an existing <span className="highlight">Mailing platform </span> using <span className="highlight">VueJS</span> and <span className="highlight">AWS</span> to develop the <span className="highlight">API</span></p>
               <p>Develop and Design an <span className="highlight">Online Contacts Application </span> built in <span className="highlight">Swift</span> that caches the contact information in a <span className="highlight">SQLite</span> Database</p>
             </li>
             <li>

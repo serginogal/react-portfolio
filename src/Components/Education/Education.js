@@ -9,10 +9,10 @@ const Education = ({  }) => {
           <li>
             <span className='school-name'>ARC Academy Japanese Language School</span><br/>
             <span>January 2018 - March 2019</span>
-            <p>Studied Japanese for a bit more than 1 year where I acquired a conversational level</p>
+            <p>Japanese language studies</p>
           </li>
           <li>
-            <span className='school-name'>ESCOLA UNIVERSITARIA GIMBERNAT (EUG)</span><br/>
+            <span className='school-name'>Escoles Universitàries Gimbernat (EUG)</span><br/>
             <span>October 2013 - June 2017</span>
             <p>Bachelor in Computer Science and Services</p>
           </li>
