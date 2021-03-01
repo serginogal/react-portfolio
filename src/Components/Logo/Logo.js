@@ -5,7 +5,7 @@ const Logo = ({color = '#424953', size = '1.5rem', text = 'Sergi Nogal'}) => {
 
   return (
     <div>
-      <h2 className='logo' style={{color, fontSize: size}} >{text}</h2>
+      <h2 style={{color, fontSize: size}} className='logo'>{text}</h2>
     </div>
   )
 }
