@@ -9,7 +9,7 @@
 }
 
 .footer-wrapper a {
-  margin: 1.2rem;
+  margin: 1rem;
   font-size: 16px;
   color: #fff;
 }
@@ -26,4 +26,11 @@
 .footer-wrapper .main-link:hover{
   color: tomato;
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-wrapper a {
+    font-size: .7rem;
+    font-weight: 500;
+  }
 }
