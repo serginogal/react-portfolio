@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 50vh;
   background-color: #fff;
 }
@@ -18,8 +19,30 @@
 }
 
 .skills-list-wrapper {
-  align-self: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 55%;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills-wrapper {
+    padding: 15vw;
+    justify-content: center;
+  }
+
+  .skills-wrapper h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .skills-wrapper h1 .highlight {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .skills-list-wrapper {
+    width: 100%;
+  }
+
 }

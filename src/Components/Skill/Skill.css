@@ -17,3 +17,16 @@
 .skill-title {
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .skill-container {
+    height: 5rem;
+    width: 5rem;
+    margin: 0.2rem
+  }
+
+  .skill-title {
+    font-size: .6rem;
+  }
+
+}
