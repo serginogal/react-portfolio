@@ -61,3 +61,50 @@
   line-height: 1.5rem;
   opacity: .6;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .education-wrapper {
+    flex-direction: column-reverse;
+    padding: 15vw;
+    justify-content: center;
+  }
+
+  .education-title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .education-title h1 .highlight {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .landing-text h3 {
+    font-size: 1rem;
+  }
+
+  .education-title img {
+    width: 12em;
+  }
+
+  .education-list {
+    width:100%;
+  }
+
+  .education-list ol .school-name {
+    font-size: 1rem;
+  }
+
+  .education-list ol li span {
+    font-size: .7rem;
+  }
+
+  .education-wrapper ol li p {
+    font-size: .6rem;
+    padding-left: 2rem;
+    line-height: 1rem;
+    opacity: .6;
+  }
+
+}
