@@ -71,3 +71,59 @@
 .career-wrapper ol li p .highlight {
   font-size: .9rem;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .career-wrapper {
+    flex-direction: column;
+    padding: 15vw;
+    justify-content: center;
+  }
+
+  .career-title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .career-title h1 .highlight {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .landing-text h3 {
+    font-size: 1rem;
+  }
+
+  .career-title img {
+    width: 12em;
+  }
+
+  .career-list {
+    width:100%;
+  }
+
+  .career-list ol .company-name {
+    font-size: 1rem;
+  }
+
+  .career-list ol .company-title {
+    font-size: .8rem;
+  }
+
+  .career-list ol li span {
+    /* position: absolute; */
+    font-size: .7rem;
+  }
+
+  .career-wrapper ol li p {
+    font-size: .6rem;
+    padding-left: 2rem;
+    line-height: 1rem;
+    opacity: .6;
+  }
+
+  .career-wrapper ol li p .highlight {
+    font-size: .6rem;
+  }
+
+}
