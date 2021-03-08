@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6780f38a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c71bbdd1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c71bbdd1.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.89787cbc.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.89787cbc.js.map",
-    "static/js/2.0df3e317.chunk.js": "/react-portfolio/static/js/2.0df3e317.chunk.js",
-    "static/js/2.0df3e317.chunk.js.map": "/react-portfolio/static/js/2.0df3e317.chunk.js.map",
-    "static/js/3.da7e5e0f.chunk.js": "/react-portfolio/static/js/3.da7e5e0f.chunk.js",
-    "static/js/3.da7e5e0f.chunk.js.map": "/react-portfolio/static/js/3.da7e5e0f.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c81b313e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.40219a51.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.40219a51.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.90340ae4.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.90340ae4.js.map",
+    "static/js/2.88396a5e.chunk.js": "/react-portfolio/static/js/2.88396a5e.chunk.js",
+    "static/js/2.88396a5e.chunk.js.map": "/react-portfolio/static/js/2.88396a5e.chunk.js.map",
+    "static/js/3.b8cbbd39.chunk.js": "/react-portfolio/static/js/3.b8cbbd39.chunk.js",
+    "static/js/3.b8cbbd39.chunk.js.map": "/react-portfolio/static/js/3.b8cbbd39.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.6780f38a.chunk.css.map": "/react-portfolio/static/css/main.6780f38a.chunk.css.map",
-    "static/js/2.0df3e317.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0df3e317.chunk.js.LICENSE.txt",
+    "static/css/main.c81b313e.chunk.css.map": "/react-portfolio/static/css/main.c81b313e.chunk.css.map",
+    "static/js/2.88396a5e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.88396a5e.chunk.js.LICENSE.txt",
     "static/media/Logo.css": "/react-portfolio/static/media/NothingYouCouldDo-Regular.590266e3.ttf",
     "static/media/index.css": "/react-portfolio/static/media/Poppins-SemiBold.cce5625b.ttf",
     "static/media/apple.svg": "/react-portfolio/static/media/apple.be3495ae.svg",
@@ -32,9 +32,9 @@
     "static/media/windows.svg": "/react-portfolio/static/media/windows.8c83b6a2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.89787cbc.js",
-    "static/js/2.0df3e317.chunk.js",
-    "static/css/main.6780f38a.chunk.css",
-    "static/js/main.c71bbdd1.chunk.js"
+    "static/js/runtime-main.90340ae4.js",
+    "static/js/2.88396a5e.chunk.js",
+    "static/css/main.c81b313e.chunk.css",
+    "static/js/main.40219a51.chunk.js"
   ]
 }
