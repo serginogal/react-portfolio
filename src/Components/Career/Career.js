@@ -3,7 +3,7 @@ import React from 'react'
 
 const Career = ({  }) => {
   return (
-    <div className='career-wrapper'>
+    <div id='career' className='career-wrapper'>
         <div className="career-title">
           <h1>Let's take a look at my <span className="highlight">Career</span></h1>
           <img src={require('../../Assets/Images/Career/career-img-2.svg').default} alt="" />

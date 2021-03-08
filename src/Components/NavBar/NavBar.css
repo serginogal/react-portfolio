@@ -19,22 +19,22 @@
   -moz-box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.05);
 }
 
-.nav .links a {
+.nav .links a * {
   margin-right: 1.5rem;
   font-size: 1rem;
   font-weight: 500;
   color: #424953;
 }
 
-.nav .links a:hover {
+.nav .links a *:hover {
   color: #424953bf;
 }
 
-.nav .links .main-link {
+.nav .links .main-link * {
   color: tomato;
 }
 
-.nav .links .main-link:hover{
+.nav .links .main-link *:hover{
   color: tomato;
   opacity: 0.7;
 }
@@ -50,7 +50,7 @@
     padding-bottom: .5rem;
   }
 
-  .nav .links a {
+  .nav .links a * {
     margin-right: 1.5rem;
     font-size: .7rem;
     font-weight: 500;
