@@ -22,15 +22,50 @@
   color: tomato;
 }
 
-
 .footer-wrapper .main-link:hover{
   color: tomato;
   opacity: 0.7;
 }
 
+.sns-wrapper {
+  display: flex;
+  margin-top: 1em;
+  align-self: flex-end;
+  margin-right: 2em;
+}
+
+.sns-wrapper .sns-img {
+  margin: .5em;
+  width: 2.5em;
+  height: 2.5em;
+  filter: invert();
+}
+
+.sns-wrapper {
+  cursor: pointer;
+}
+
+.sns-wrapper .sns-img-container:hover {
+  opacity: .7;
+}
+
 @media only screen and (max-width: 768px) {
+
+  .footer-wrapper {
+    min-height: 25vh;
+  }
+
   .footer-wrapper a {
     font-size: .7rem;
     font-weight: 500;
+  }
+
+  .sns-wrapper {
+    margin-right: 1em;
+  }
+
+  .sns-wrapper .sns-img {
+    width: 1.5em;
+    height: 1.5em;
   }
 }
