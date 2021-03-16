@@ -21,12 +21,8 @@
   opacity: .4;
   line-height: 30px;
   margin: .5rem !important;
+  width: 80%;
 }
-
-.landing-image img {
-  width: 40vw;
-}
-
 
 @media only screen and (max-width: 768px) {
   .landing-wrapper {
@@ -48,11 +44,7 @@
   .landing-text h3 {
     font-size: .8rem;
     line-height: 1.2rem;
-  }
-
-  .landing-image img {
-    width: 20em;
-    margin: 2.5em 0;
+    width: 100%;
   }
 
   .landing-text {

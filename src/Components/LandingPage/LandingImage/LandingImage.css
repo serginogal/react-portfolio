@@ -1,0 +1,76 @@
+.landing-image tspan { white-space:pre }
+.landing-image .shp0 { opacity: 0.18;fill: #6ea2e6 }
+.landing-image .shp1 { fill: #3d517d }
+.landing-image .shp2 { fill: #fc826a }
+.landing-image .shp3 { fill: #ffc182 }
+.landing-image .shp4 { fill: #6ea2e6 }
+.landing-image .shp5 { fill: #323e59 }
+.landing-image .shp6 { fill: #5a70a1 }
+.landing-image .shp7 { fill: #6887d9 }
+.landing-image .shp8 { fill: #ffffff }
+.landing-image .shp9 { fill: #a877ba }
+.landing-image .shp10 { fill: #b681c9 }
+.landing-image .shp11 { fill: #ffd587 }
+.landing-image .shp12 { fill: #ffd98c }
+.landing-image .shp13 { fill: #e6e6e6 }
+.landing-image .shp14 { fill: #c4c4c4 }
+.landing-image .shp15 { fill: #ffc987 }
+.landing-image .shp16 { fill: none;stroke: #6ea2e6;stroke-width: 2 }
+.landing-image .shp17 { fill: #ff9670 }
+.landing-image .shp18 { fill: none;stroke: #ffc182;stroke-linecap:round;stroke-width: 2 }
+.landing-image .shp19 { fill: none;stroke: #ff9670;stroke-width: 4 }
+.landing-image .shp20 { mix-blend-mode: multiply;fill: #e6e6e6 }
+.landing-image .shp21 { fill: #d6d6d6 }
+
+#square-1 {
+  animation: default-anim-1 10s alternate-reverse infinite;
+}
+#square-2 {
+  animation: default-anim-2 8s alternate-reverse infinite;
+}
+#square-3 {
+  animation: default-anim-1 9s alternate-reverse infinite;
+}
+#square-4 {
+  animation: default-anim-2 8s alternate-reverse infinite;
+}
+
+#top-cloud {
+  animation: default-anim-3 3s alternate-reverse infinite linear;
+}
+#bottom-cloud {
+  animation: default-anim-3 4s alternate-reverse infinite linear;
+}
+
+
+@keyframes default-anim-1 {
+  from {transform: translate(-10px, -2px)}
+  50% {transform: translate(0px, 10px)}
+  to {transform: translate(10px, 4px)}
+}
+
+@keyframes default-anim-2 {
+  from {transform: translate(5px, -10px)}
+  50% {transform: translate(0px, 10px)}
+  to {transform: translate(-5px, 10px)}
+}
+
+@keyframes default-anim-3 {
+  from {transform: translate(-8px, -10px)}
+  50% {transform: translate(0px, 10px)}
+  to {transform: translate(5px, 0px)}
+}
+
+.landing-image svg {
+  width: 40vw;
+  height: auto;
+  overflow: visible;
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-image svg {
+    width: 20em;
+    height: auto;
+    margin: 2.5em 0;
+  }
+}

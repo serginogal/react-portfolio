@@ -3,6 +3,7 @@ import React from 'react'
 import Button from '../Button/Button'
 import resume from '../../Assets/Sergi_Nogal_CV.pdf'
 import { motion } from "framer-motion"
+import LandingImage from './LandingImage/LandingImage'
 
 const LandingPage = () => {
 
@@ -17,7 +18,7 @@ const LandingPage = () => {
             opacity: 1,
             x: 0
           }}
-          transition={{ delay: 0.1, ease: "easeOut", duration: 0.5 }}
+          transition={{ delay: 0.1, ease: "easeOut", duration: 0.8 }}
         >
           <h1>Hi! 👋<br/>
           My name is <span className="highlight">Sergi Nogal</span><br/>
@@ -29,17 +30,17 @@ const LandingPage = () => {
         </motion.div>
         <motion.div
           initial={{
-            opacity: 0.1,
+            opacity: 0,
             scale: 0.8
           }}
           animate={{
             opacity: 1,
             scale: 1
           }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.8 }}
         >
           <div className="landing-image">
-            <img src={require('../../Assets/Images/Landing/landing-bg-2.svg').default} alt="Landing Page Image" />
+            <LandingImage />
           </div>
         </motion.div>
       </div>
