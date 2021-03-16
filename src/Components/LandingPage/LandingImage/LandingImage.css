@@ -23,13 +23,13 @@
 .landing-image .shp21 { fill: #d6d6d6 }
 
 #square-1 {
-  animation: default-anim-1 10s alternate-reverse infinite;
+  animation: default-anim-1 8s alternate-reverse infinite;
 }
 #square-2 {
-  animation: default-anim-2 8s alternate-reverse infinite;
+  animation: default-anim-2 7s alternate-reverse infinite;
 }
 #square-3 {
-  animation: default-anim-1 9s alternate-reverse infinite;
+  animation: default-anim-1 6s alternate-reverse infinite;
 }
 #square-4 {
   animation: default-anim-2 8s alternate-reverse infinite;
