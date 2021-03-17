@@ -11,13 +11,13 @@
   position: relative;
   padding: 0 50px;
   width: 50vw;
-  /* height: inherit; */
 }
 
 .education-title h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 0 !important;
+  padding-bottom: 1rem;
 }
 
 .education-title h1 span {
@@ -51,7 +51,6 @@
 }
 
 .education-list ol li span {
-  /* position: absolute; */
   font-size: .8rem;
 }
 
@@ -70,6 +69,10 @@
     justify-content: center;
   }
 
+  .education-title {
+    width: 100%;
+  }
+
   .education-title h1 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -85,7 +88,7 @@
   }
 
   .education-title img {
-    width: 12em;
+    width: 15em;
   }
 
   .education-list {
@@ -102,7 +105,7 @@
 
   .education-wrapper ol li p {
     font-size: .6rem;
-    padding-left: 2rem;
+    padding-left: 0;
     line-height: 1rem;
     opacity: .6;
   }
