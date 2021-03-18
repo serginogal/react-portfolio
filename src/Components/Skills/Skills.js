@@ -26,23 +26,19 @@ const Skills = ({ skills }) => {
 
   return (
       <div ref={ref} id='skills' className="skills-wrapper">
-        {inView&&
-        <>
-          <motion.div
-            className="skills-header"
-            initial="hidden"
-            animate="visible"
-            variants={variants}
-          >
-            <h1>Some <span className="highlight">technologies</span> that I use</h1>
-          </motion.div>
-          <div className='skills-list-wrapper'>
-            {
-              skills.map((skill, index) => <Skill  {...{skill, index}} />)
-            }
-          </div>
-        </>
-        }
+        <motion.div
+          className="skills-header"
+          initial='hidden'
+          animate={inView? 'visible' : 'hidden'}
+          variants={variants}
+        >
+          <h1>Some <span className="highlight">technologies</span> that I use</h1>
+        </motion.div>
+        <div className='skills-list-wrapper'>
+          {
+            skills.map((skill, index) => <Skill  {...{skill, index, inView}} />)
+          }
+        </div>
       </div>
   )
 }

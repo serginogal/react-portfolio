@@ -2,7 +2,7 @@ import './Skill.css'
 import React from 'react'
 import { motion } from 'framer-motion';
 
-const Skill = ({ skill, index }) => {
+const Skill = ({ skill, index, inView }) => {
   const { name, img, color } = skill
 
   const variants = {
@@ -25,8 +25,8 @@ const Skill = ({ skill, index }) => {
     <motion.div
       className='skill-container'
       style={{backgroundColor: color}}
-      initial="hidden"
-      animate="visible"
+      initial='hidden'
+      animate={inView? 'visible' : 'hidden'}
       custom={index}
       variants={variants}
     >
