@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Career = () => {
 
   const [ref, inView, entry] = useInView({
-    threshold: 0.3,
+    threshold: 0.25,
     triggerOnce: true
   });
 
@@ -33,7 +33,7 @@ const Career = () => {
     },
     hidden: {
       opacity: 0,
-      x: '-2rem'
+      x: '-0.5rem'
     }
   };
 

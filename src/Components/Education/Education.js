@@ -33,7 +33,7 @@ const Education = () => {
     },
     hidden: {
       opacity: 0,
-      x: '2rem'
+      x: '0.5rem'
     }
   };
 
