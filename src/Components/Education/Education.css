@@ -41,7 +41,7 @@
 .education-list ol .school-name {
   font-weight: bold;
   font-size: 1.2rem;
-  opacity: .6;
+  opacity: .8;
 }
 
 .education-wrapper ol li {
@@ -51,14 +51,14 @@
 }
 
 .education-list ol li span {
-  font-size: .8rem;
+  font-size: .85rem;
 }
 
 .education-wrapper ol li p {
   font-size: .9rem;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   line-height: 1.5rem;
-  opacity: .6;
+  opacity: .7;
 }
 
 
