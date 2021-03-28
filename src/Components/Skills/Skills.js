@@ -3,6 +3,7 @@ import React from 'react'
 import Skill from '../Skill/Skill'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
+import PropTypes from 'prop-types'
 
 const Skills = ({ skills }) => {
 
@@ -25,22 +26,26 @@ const Skills = ({ skills }) => {
   };
 
   return (
-      <div ref={ref} id='skills' className="skills-wrapper">
-        <motion.div
-          className="skills-header"
-          initial='hidden'
-          animate={inView? 'visible' : 'hidden'}
-          variants={variants}
-        >
-          <h1>Some <span className="highlight">technologies</span> that I use</h1>
-        </motion.div>
-        <div className='skills-list-wrapper'>
-          {
-            skills.map((skill, index) => <Skill  {...{skill, index, inView}} />)
-          }
-        </div>
+    <div ref={ref} id='skills' className="skills-wrapper">
+      <motion.div
+        className="skills-header"
+        initial='hidden'
+        animate={inView? 'visible' : 'hidden'}
+        variants={variants}
+      >
+        <h1>Some <span className="highlight">technologies</span> that I use</h1>
+      </motion.div>
+      <div className='skills-list-wrapper'>
+        {
+          skills.map((skill, index) => <Skill  {...{skill, index, inView}} />)
+        }
       </div>
+    </div>
   )
+}
+
+Skills.propTypes = {
+  skills: PropTypes.array.isRequired
 }
 
 export default Skills

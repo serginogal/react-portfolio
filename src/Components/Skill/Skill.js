@@ -1,8 +1,9 @@
 import './Skill.css'
 import React from 'react'
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
+import PropTypes from 'prop-types'
 
-const Skill = ({ skill, index, inView }) => {
+const Skill = ({ skill, index = 0, inView = true }) => {
   const { name, img, color } = skill
 
   const variants = {
@@ -34,6 +35,12 @@ const Skill = ({ skill, index, inView }) => {
       <h3 className='skill-title'>{name}</h3>
     </motion.div>
   )
+}
+
+Skill.propTypes = {
+  skill: PropTypes.object.isRequired,
+  primary: PropTypes.number,
+  inView: PropTypes.bool
 }
 
 export default Skill

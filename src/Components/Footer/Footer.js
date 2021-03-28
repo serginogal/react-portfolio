@@ -3,7 +3,7 @@ import React from 'react'
 import Logo from '../Logo/Logo'
 import {Link} from 'react-scroll'
 
-const Footer = ({ }) => {
+const Footer = () => {
   return (
     <div className="footer-wrapper">
     <Logo color={'#fff'} />

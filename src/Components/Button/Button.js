@@ -1,5 +1,6 @@
 import './Button.css'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Button = ({ text = 'btn_text', primary = true, onClick}) => {
 
@@ -8,6 +9,12 @@ const Button = ({ text = 'btn_text', primary = true, onClick}) => {
       <a>{text}</a>
     </div>
   )
+}
+
+Button.propTypes = {
+  text: PropTypes.string,
+  primary: PropTypes.bool,
+  onClick: PropTypes.func
 }
 
 export default Button
