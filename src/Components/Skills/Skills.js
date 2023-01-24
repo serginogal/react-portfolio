@@ -3,9 +3,10 @@ import React from 'react'
 import Skill from '../Skill/Skill'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
-import PropTypes from 'prop-types'
 
-const Skills = ({ skills }) => {
+import skills from '../../_data/skills.json'
+
+const Skills = () => {
 
   const [ref, inView, entry] = useInView({
     threshold: 0.5,
@@ -37,15 +38,11 @@ const Skills = ({ skills }) => {
       </motion.div>
       <div className='skills-list-wrapper'>
         {
-          skills.map((skill, index) => <Skill  {...{skill, index, inView}} />)
+          (skills || []).map((skill, index) => <Skill  {...{skill, index, inView}} />)
         }
       </div>
     </div>
   )
-}
-
-Skills.propTypes = {
-  skills: PropTypes.array.isRequired
 }
 
 export default Skills
