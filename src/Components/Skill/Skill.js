@@ -31,7 +31,7 @@ const Skill = ({ skill, index = 0, inView = true }) => {
       custom={index}
       variants={variants}
     >
-      <img className='skill-img' src={require('../../Assets/Images/Skills/'+img).default} alt='skill image' />
+      <img className='skill-img' src={require('../../Assets/Images/Skills/'+img).default} alt='skill logo' />
       <h3 className='skill-title'>{name}</h3>
     </motion.div>
   )

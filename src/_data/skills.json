@@ -25,6 +25,11 @@
     "color": "#eb543d"
   },
   {
+    "name": "TypeScript",
+    "img": "typescript.svg",
+    "color": "#3178C6"
+  },
+  {
     "name": "NodeJS",
     "img": "node.svg",
     "color": "#68a063"
@@ -33,11 +38,6 @@
     "name": "ReactJS",
     "img": "react.svg",
     "color": "#61DBFB"
-  },
-  {
-    "name": "Java",
-    "img": "java.svg",
-    "color": "#f89820"
   },
   {
     "name": "GitHub",
