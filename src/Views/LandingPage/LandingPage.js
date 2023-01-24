@@ -1,6 +1,6 @@
 import './LandingPage.css'
 import React from 'react'
-import Button from '../Button/Button'
+import Button from '../../Components/Button/Button'
 import resume from '../../Assets/Sergi_Nogal_CV.pdf'
 import { motion } from "framer-motion"
 import LandingImage from './LandingImage/LandingImage'

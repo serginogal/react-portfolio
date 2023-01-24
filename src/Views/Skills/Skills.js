@@ -1,6 +1,6 @@
 import './Skills.css'
 import React from 'react'
-import Skill from '../Skill/Skill'
+import Skill from '../../Components/Skill/Skill'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 

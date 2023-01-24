@@ -40,11 +40,10 @@ const Education = () => {
   return (
     <div ref={ref} id='education' className='education-wrapper'>
       <motion.div
-        className='career-list'
+        className='education-list'
         initial='hidden'
         animate={inView? 'visible' : 'hidden'}
-        variants={listVariants}
-        className='education-list'>
+        variants={listVariants}>
         <motion.ol variants={listVariants}>
           <motion.li variants={listVariants}>
             <motion.span variants={listVariants} className='school-name'>ARC Academy Japanese Language School</motion.span><br/>

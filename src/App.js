@@ -1,10 +1,10 @@
 import './App.css'
-import Career from './Components/Career/Career'
-import Education from './Components/Education/Education'
+import Career from './Views/Career/Career'
+import Education from './Views/Education/Education'
 import Footer from './Components/Footer/Footer'
-import LandingPage from './Components/LandingPage/LandingPage'
+import LandingPage from './Views/LandingPage/LandingPage'
 import NavBar from './Components/NavBar/NavBar'
-import Skills from './Components/Skills/Skills'
+import Skills from './Views/Skills/Skills'
 
 const App = () => {
   return (
