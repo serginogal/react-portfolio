@@ -6,7 +6,7 @@ const Button = ({ text = 'btn_text', primary = true, onClick}) => {
 
   return (
     <div {...{onClick}} className={`btn ${primary? 'btn-primary' : 'btn-secondary'} non-selectable`}>
-      <a>{text}</a>
+      <span>{text}</span>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import skills from '../../_data/skills.json'
 
 const Skills = () => {
 
-  const [ref, inView, entry] = useInView({
+  const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true
   });
