@@ -57,9 +57,24 @@ const Career = () => {
       >
         <motion.ol variants={listVariants}>
           <motion.li variants={listVariants}>
+            <motion.span variants={listVariants} className='company-name'>Bluecode Inc.</motion.span><br/>
+            <motion.span variants={listVariants}  className='company-title'>Fullstack Engineer</motion.span><br/>
+            <motion.span variants={listVariants} span>July 2022 - Present</motion.span>
+            <motion.p variants={listVariants}> Develop Single Page Applications using different Javascript Frameworks like <span className="highlight">ReactJS</span> and <span className="highlight">Angular</span></motion.p>
+            <motion.p variants={listVariants}>Develop and Research Mobile Applications using <span className="highlight">React Native</span>, <span className="highlight">Ionic-Cordova</span>, <span className="highlight">Swift</span> and <span className="highlight">Kotlin</span></motion.p>
+            <motion.p variants={listVariants}>Create Multiple <span className="highlight">Qiita articles</span> about Development and Implementation of different technologies</motion.p>
+            <motion.p variants={listVariants}>Deploy <span className="highlight">ERC20/ERC721</span> Tokens in the <span className="highlight">Ethereum</span> and <span className="highlight">Polygon</span> Blockchains</motion.p>
+            <motion.p variants={listVariants}>Develop and Deploy to <span className="highlight">Firebase Functions</span> APIs (<span className="highlight">ExpressJS</span>) to interact with <span className="highlight">ERC20/ERC721</span> Tokens using <span className="highlight">web3</span> for an <span className="highlight">iOS</span> and <span className="highlight">Android</span> Game</motion.p>
+            <motion.p variants={listVariants}>Develop a Frontend to interact with the <span className="highlight">ERC20/ERC721</span> Tokens</motion.p>
+            <motion.p variants={listVariants}>Deploy <span className="highlight">SPL-Tokens</span> in the <span className="highlight">Solana</span> Blockchain</motion.p>
+            <motion.p variants={listVariants}>Develop and Deploy to <span className="highlight">Firebase Functions</span> APIs (<span className="highlight">ExpressJS</span>) to interact with <span className="highlight">SPL-Tokens</span> using <span className="highlight">Solana web3</span> for an <span className="highlight">iOS</span> and <span className="highlight">Android</span> Game</motion.p>
+            <motion.p variants={listVariants}>Develop a Frontend to interact with the <span className="highlight">SPL-Tokens</span> Tokens</motion.p>
+            <motion.p variants={listVariants}>Implement new features, maintain and update several <span className="highlight">iOS</span> and <span className="highlight">Android</span> apps built with <span className="highlight">React Native Expo</span> (using <span className="highlight">OTA updates</span>)</motion.p>
+          </motion.li>
+          <motion.li variants={listVariants}>
             <motion.span variants={listVariants} className='company-name'>PlaynextLab Inc.</motion.span><br/>
             <motion.span variants={listVariants}  className='company-title'>Software Engineer</motion.span><br/>
-            <motion.span variants={listVariants} span>April 2019 - Present</motion.span>
+            <motion.span variants={listVariants} span>April 2019 - June 2021</motion.span>
             <motion.p variants={listVariants}> Develop and design new functionalities using <span className="highlight">NodeJS</span>, <span className="highlight">PUG</span>, <span className="highlight">CSS</span> and <span className="highlight">JavaScript</span> to an existing <span className="highlight">e-commerce</span> platform</motion.p>
             <motion.p variants={listVariants}>Develop from scratch an <span className="highlight">Online Music Application</span> using <span className="highlight">React Native</span> published in both, the <span className="highlight">App Store</span> and <span className="highlight">Google Play Store</span></motion.p>
             <motion.p variants={listVariants}>Maintain, fix and update various <span className="highlight">Online Messaging </span> and <span className="highlight">VOIP iOS Applications</span> using <span className="highlight">Objective C</span> and <span className="highlight">Swift</span></motion.p>
