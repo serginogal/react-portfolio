@@ -59,7 +59,7 @@ const Career = () => {
           <motion.li variants={listVariants}>
             <motion.span variants={listVariants} className='company-name'>Bluecode Inc.</motion.span><br/>
             <motion.span variants={listVariants}  className='company-title'>Fullstack Engineer</motion.span><br/>
-            <motion.span variants={listVariants} span>July 2022 - Present</motion.span>
+            <motion.span variants={listVariants} span>July 2021 - Present</motion.span>
             <motion.p variants={listVariants}> Develop Single Page Applications using different Javascript Frameworks like <span className="highlight">ReactJS</span> and <span className="highlight">Angular</span></motion.p>
             <motion.p variants={listVariants}>Develop and Research Mobile Applications using <span className="highlight">React Native</span>, <span className="highlight">Ionic-Cordova</span>, <span className="highlight">Swift</span> and <span className="highlight">Kotlin</span></motion.p>
             <motion.p variants={listVariants}>Create Multiple <span className="highlight">Qiita articles</span> about Development and Implementation of different technologies</motion.p>
@@ -74,7 +74,7 @@ const Career = () => {
           <motion.li variants={listVariants}>
             <motion.span variants={listVariants} className='company-name'>PlaynextLab Inc.</motion.span><br/>
             <motion.span variants={listVariants}  className='company-title'>Software Engineer</motion.span><br/>
-            <motion.span variants={listVariants} span>April 2019 - June 2022</motion.span>
+            <motion.span variants={listVariants} span>April 2019 - June 2021</motion.span>
             <motion.p variants={listVariants}> Develop and design new functionalities using <span className="highlight">NodeJS</span>, <span className="highlight">PUG</span>, <span className="highlight">CSS</span> and <span className="highlight">JavaScript</span> to an existing <span className="highlight">e-commerce</span> platform</motion.p>
             <motion.p variants={listVariants}>Develop from scratch an <span className="highlight">Online Music Application</span> using <span className="highlight">React Native</span> published in both, the <span className="highlight">App Store</span> and <span className="highlight">Google Play Store</span></motion.p>
             <motion.p variants={listVariants}>Maintain, fix and update various <span className="highlight">Online Messaging </span> and <span className="highlight">VOIP iOS Applications</span> using <span className="highlight">Objective C</span> and <span className="highlight">Swift</span></motion.p>
